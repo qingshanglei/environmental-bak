@@ -1,0 +1,146 @@
+.fa{height: 860px;
+    width: 1262px;
+    margin: 0 auto;}
+header{height: 70px;
+        width: 1262px;}
+header div{
+    height: 70px;
+    margin:0 70px;
+            }
+.logo{height: 70px;
+    width: 80px;
+    float: left;}
+.logo h1{font-size: 0;}
+.logos{height: 70px;
+        width: 400px;
+        float: left;
+        font-size: 35px;
+        line-height: 70px;
+        margin-left: -35px;
+        color: rgb(139, 207, 71);}
+
+.index1{height: 70px;
+        width: 100px;
+        float: left;
+        font-size: 20px;
+        line-height: 70px;
+        margin-left: 100px;
+        text-align: center;
+        color: rgb(32, 44, 20);}
+.index2{height: 70px;
+    width: 100px;
+    float: left;
+    font-size: 20px;
+    line-height: 70px;
+    margin-left: 10px;
+    color: rgb(32, 44, 20);}
+.index1 a,.index2 a{
+    color: rgb(43, 39, 37);
+}
+.index1 a:hover,.index2 a:hover{
+    color: rgb(84, 250, 84);
+}
+p{margin: 0;}
+footer{width: 1262px;
+        height: 70px;
+        text-align: center;}
+footer p{text-align: center;}
+
+.user_info{
+    height: 820px;
+    width: 1262px;
+    background-color: rgb(236, 221, 201);
+    background-size: 1262px 720px;
+    background-position: 50% 50%;
+    position: relative
+}
+
+.top{height: 100px;
+    width: 1263px;
+   ;}
+.left{position: absolute;
+    top: 110px;
+    height: 710px;
+    width: 350px;
+    background-color: rgb(109, 168, 49);
+    background-image: url(../img/left.jpg);
+}
+
+.lleft{height: 710px;
+        width: 200px;
+        margin-left: 145px;
+        border: black solid 1px;
+        /* 强制取消背景 */
+        background-color: rgb(138, 187, 59);}
+#no{height:30px;
+    width: 200px;
+    background-color:rgba(119, 71, 71,.0);
+    box-shadow:0; }
+.lleft div{
+    width: 200px;
+    height: 50px;
+    margin: 5px 0;  
+    background-color: rgba(230, 248, 248,.6);  
+    box-shadow: 1px 1px 1px 1px black;      
+}
+.lleft div a{
+    display:inline-block;  
+    font-size: 20px;
+    line-height: 50px;
+    margin-left: 40px;
+    color: black;
+}
+.lleft div:hover{
+    background-color: rgb(97, 197, 4);;
+    }
+.lleft div:hover a{color: azure;}
+
+
+
+/* 右边 */
+.right{position: absolute;
+    top: 110px;
+    left: 350px;
+    width: 913px;
+    height: 710px;
+    background-color: rgb(248, 246, 238);}
+.her{width: 913px;
+    height: 120px;
+    border: rgb(59, 99, 51) solid 1px;
+    }
+.herm{height: 120px;
+        width: 120px;
+        margin-left: 100px;
+      
+        float: left;}
+.im{height: 90px;
+    width: 90px;
+    margin-top: 20px;
+    border-radius: 45px;
+    background-image: url(../img/github);
+    background-size: 90px 90px;}
+    
+.data{height: 90px;
+    width: 500px;
+ 
+    float: left;
+    margin-top: 30px;
+}
+
+.bodi{width: 913px;
+    height: 590px;
+    background-color: rgb(247, 244, 240);}
+.bodis{width: 800px;
+        height: 590px;
+    margin-left: 100px;
+    background-color:  rgb(247, 244, 240);}
+.bodis div{width: 300px;
+            height: 40px;
+            margin: 5px 0;
+            background-color: rgb(247, 244, 240);
+            }
+.bodis div span{font-size: 14px;
+                line-height: 40px;}
+
+
+

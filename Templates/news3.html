@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>环保小当家</title>
+    <link href="../static/css/reset.css" type="text/css" rel="stylesheet">
+    <link href="../static/css/index/1.css" type="text/css" rel="stylesheet">
+    <link href="../static/css/index/2.css" type="text/css" rel="stylesheet">
+    <link href="../static/css/news/news.css" type="text/css" rel="stylesheet">
+    <link href="../static/css/index/5.css" type="text/css" rel="stylesheet">
+    <link rel="shortcut icon" href="../static/img/bit64s">
+    <script src="../static/js/common.js"></script>
+    <script src="../static/js/vue-2.5.16.js"></script>
+</head>
+
+<body>
+    <div class="fade">
+        <header>
+            <div>
+                <div class="logo"><a href="index.html"><img src="../static/img/index/a1s.jpg" height="70px" width="80px"></a>
+                    <h1>环保小当家欢迎您</h1>
+                </div>
+                <div class="logos">环保小当家</div>
+                {% if username %}
+                        <div class="inder">
+                                <div class="index1"><a href="/user_center_info.html">你好 {{ username }}</a> </div>
+                                <div class="index2" ><a href="/logout/">退出登录</a></div>                 
+                        </div>
+                    {% else %}
+                <div class="inder">
+                    <div class="index1"><a href="login.html">登录</a> </div>
+                    <div class="index2"><a href="register.html">注册</a></div>
+                </div>
+                {% endif %}
+                <div class="user">
+                    <a href="/user_center_info.html">用户中心</a>
+                </div>
+            </div>
+        </header>
+        <!-- 导航 -->
+        <div class="nav">
+            <div>
+                <ul>
+                    <li><a href="index.html">首页</a></li>
+                    <li><a href="zixun.html">资讯</a></li>
+                    <li><a href="kepu.html">图库</a></li>
+                    <li><a href="#">专栏</a></li>
+                    <li><a href="#">科普</a></li>
+                    <li class="lib"><a href="#">健康生活</a></li>
+                    <li class="lib"><a href="#">互联网＋</a></li>
+                    <li><a href="#">企业</a></li>
+                    <li><a href="#">更多</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="news">
+            <h6>生态环境部出台意见遏制“两高”项目盲目发展</h6>
+            <p1>2021-06-08 23:26 &nbsp;&nbsp;&nbsp;来源：环保小当家-环保新闻</p1>
+            <img src="../static/img/news/news3.jpg" width="1300px" height="500px">
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;生态环境部31日公布了《关于加强高耗能、高排放建设项目生态环境源头防控的指导意见》，
+                以加快推动绿色低碳发展，坚决遏制“两高”项目盲目发展。<br/><br/>
+
+                &nbsp;&nbsp;&nbsp;&nbsp;这份意见要求各级生态环境部门严格审查涉“两高”行业的有关综合性规划和工业、能源等专项规划环评，
+                特别对为上马“两高”项目而修编的规划，在环评审查中应严格控制“两高”行业发展规模，优化规划布局、产业结构与实施时序。<br/><br/>
+
+                &nbsp;&nbsp;&nbsp;&nbsp;意见提出要严把建设项目环境准入关，新建、改建、扩建“两高”项目须符合生态环境保护法律法规和
+                相关法定规划，满足重点污染物排放总量控制、碳排放达峰目标、生态环境准入清单、相关规划环评和相应行业建设项目环境准入条件、
+                环评文件审批原则要求。对于不符合相关法律法规的，依法不予审批。<br/><br/>
+
+                &nbsp;&nbsp;&nbsp;&nbsp;各地新建“两高”项目应按照相关要求，依据区域环境质量改善目标，制定配套区域污染物削减方案，
+                采取有效的污染物区域削减措施，腾出足够的环境容量。国家大气污染防治重点区域内新建耗煤项目还应严格按规定采取煤炭消费减量替代措施，
+                不得使用高污染燃料作为煤炭减量替代措施。<br/><br/>
+
+                &nbsp;&nbsp;&nbsp;&nbsp;文件提出，对基层生态环境部门和行政审批部门已批复环评文件的“两高”项目，
+                省级生态环境部门应开展复核。对未依法报批环评文件即擅自开建的项目，或未依法重新报批环评文件擅自发生重大变动的，
+                地方生态环境部门应责令立即停止建设，依法严肃查处；对不满足生态环境准入条件的，依法责令恢复原状。
+                地方政府落实“两高”项目生态环境防控措施不力问题突出的，要依法实施区域限批，纳入中央和省级生态环境保护督察。<br/><br/>
+                </p>
+        </div>
+        <div class="hra">
+            <div class="footer">
+                <div class="yyy">
+                    <h1>关于我们</h1>
+                    <p>平台简介</p>
+                    <p>发展历程</p>
+                    <p>支持机构</p>
+                    <p>项目案例</p>
+                    <p>加入我们</p>
+                    <p>联系我们</p>
+                </div>
+                <div class="yy">
+                    <h1>平台功能</h1>
+                    <p>平台优势</p>
+                    <p>网络广告</p>
+                    <p>网站会员</p>
+                    <p>新媒体</p>
+                    <p>专业服务</p>
+                </div>
+                <div class="yy">
+                    <h1>服务条款</h1>
+                    <p>会员条款</p>
+                    <p>法律声明</p>
+                    <p>下载中心</p>
+                    <p>帮助中心</p>
+                </div>
+                <div class="yy">
+                    <h1>友情链接</h1>
+                    <p>政府机关</p>
+                    <p>环保组织</p>
+                    <p>国际组织</p>
+                    <p>招标网站</p>
+                    <div class="foto"><img src="../static/img/index/erwuima.png" height="110px" width="110px"></div>
+                </div>
+              
+            </div>
+            </div>
+            <footer>
+                <br>
+                <p>CopyRight © 2021 广东中山广东理工****有限公司 All Rights Reserved</p><br>
+                <p>邮箱: &nbsp318****qq.com</p><br>
+    
+                <p>电话：010-****888 京ICP备*******8号</p>
+                <br>
+            </footer>
+</body>
+
+</html>
+<script src="../static/js/index.js"></script>

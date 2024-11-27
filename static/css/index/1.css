@@ -1,0 +1,121 @@
+header {
+    height: 70px;
+    margin: 0;
+}
+
+header div {
+    height: 70px;
+    margin: 0 70px;
+}
+
+.logo {
+    height: 70px;
+    width: 40px;
+    float: left;
+    margin-left: 150px;
+}
+
+.logo h1 {
+    font-size: 0;
+}
+
+.logos {
+    height: 70px;
+    width: 400px;
+    float: left;
+    font-size: 35px;
+    line-height: 70px;
+    margin-left: 0;
+    color: rgb(139, 207, 71);
+}
+
+header div .inder{
+    margin: 0;
+    width: 370px;
+    height: 70px;
+    margin-left: 120px;
+  float: left;
+}
+
+
+.index1 {
+    height: 70px;
+    width: 190px;
+    float: left;
+    margin: 0;
+    font-size: 20px;
+    line-height: 70px;
+    /* margin-left: 100px; */
+    text-align: right;
+    color: rgb(32, 44, 20);
+}
+
+
+.index2 {
+    height: 70px;
+    width: 120px;
+    float: left;
+    margin: 0;
+    font-size: 20px;
+    line-height: 70px;
+    margin-left: 60px;
+    color: rgb(32, 44, 20);
+}
+.indexs1 a,
+.index1 a,
+.index2 a {
+    color: rgb(43, 39, 37);
+}
+
+.indexs1 a:hover,
+.index1 a:hover,
+.index2 a:hover,
+.user a:hover
+{
+    color: rgb(84, 250, 84);
+}
+
+
+.user{
+    height: 70px;
+    width: 120px;
+    margin: 0;
+    float: left;
+    text-align: center;     
+}
+.user a{
+    color: black;
+    font-size: 20px;
+    line-height: 70px;
+}
+
+/* .button{
+    float: right; 
+    margin: 0 auto; 
+}
+.button a{
+    padding-right: 10px;
+    text-decoration: none;
+	color: #690;
+    margin: 0 auto;
+}
+.button1{
+    margin: 0 auto;
+    height: 20px;
+}
+.button2{
+    margin: 0 auto;
+}
+.button a:hover {
+	color: rgb(241, 78, 78);
+	text-decoration: none;
+}
+.user{
+    float: right;
+}
+.user a{
+    padding-right: 10px;
+    text-decoration: none;
+	color: #690;
+    margin: 0 auto;
+} */

@@ -1,0 +1,62 @@
+.footer{
+    height: 282px;
+    width: 1263px;
+    margin: 0 auto;
+    
+    text-align: center;
+    margin-top: 60px;
+    font-size: 20px;
+   
+}
+h1 {
+    font-size: 20px;
+}
+
+.yy {
+    padding-right: 100px;
+    border-top: 1px solid #868686;
+    margin-right: 50px;
+    float: left;
+}
+.yyy{
+    padding-right: 100px;
+    border-top: 1px solid #868686;
+    margin-right: 50px;
+    float: left;
+    margin-left: 200px;}
+.footer p {
+    font-size: 10px;
+    color: #5a5858;
+    font-weight: bold;
+    margin: 8px;
+}
+footer {
+    height: 70px;
+    text-align: center;
+}
+footer p {
+    margin: 0;
+    text-align: center;
+}
+ .foto{
+    width: 120px;
+    height: 120px;
+    margin-top: 15px;
+    /* background-color: rgb(255, 246, 246); */
+    text-align: center;
+}
+
+/* 修改 */
+/* 总体布局 */
+.fade{
+    width: 1563px;
+    height:2720px ;
+    margin: 0 auto;
+}
+
+.hra{width: 1563;
+    height: 332px;
+    border-top:  black 1px solid;}
+
+body{background-color: rgb(213, 248, 213);}
+

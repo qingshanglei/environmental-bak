@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>环保小当家</title>
+    <link href="../static/css/reset.css" type="text/css" rel="stylesheet">
+    <link href="../static/css/index/1.css" type="text/css" rel="stylesheet">
+    <link href="../static/css/index/2.css" type="text/css" rel="stylesheet">
+    <link href="../static/css/xizun/zixun.css" type="text/css" rel="stylesheet">
+    <link href="../static/css/index/5.css" type="text/css" rel="stylesheet">
+    <link rel="shortcut icon" href="../static/img/bit64s">
+    <script src="../static/js/common.js"></script>
+    <script src="../static/js/vue-2.5.16.js"></script>
+</head>
+
+<body>
+    <div class="fade">
+        <header>
+            <div>
+              <div class="logo"><a href="index.html"><img src="../static/img/a1s.jpg" height="70px" width="80px"></a>
+                <h1>环保小当家欢迎您</h1>
+            </div>
+                    {% if username %}
+                        <div class="inder">
+                                <div class="index1"><a href="/user_center_info.html">你好 {{ username }}</a> </div>
+                                <div class="index2" ><a href="/logout/">退出登录</a></div>                 
+                        </div>
+                    {% else %}
+                        <div  class="inder">
+                            <div class="index1"><a href="/login.html">登录</a> </div>
+                            <div class="index2" ><a href="/register.html">注册</a></div>
+                        </div>
+                    {% endif %}
+               <div class="user">
+                   <a href="/user_center_info.html">用户中心</a>
+               </div>
+            </div>
+        </header>
+        <!-- 导航 -->
+        <div class="nav">
+            <div>
+                <ul>
+                    <li><a href="index.html">首页</a></li>
+                    <li><a href="zixun.html">资讯</a></li>
+                    <li><a href="kepu.html">图库</a></li>
+                    <li><a href="#">专栏</a></li>
+                    <li><a href="#">科普</a></li>
+                    <li class="lib"><a href="#">健康生活</a></li>
+                    <li class="lib"><a href="#">互联网＋</a></li>
+                    <li><a href="#">企业</a></li>
+                    <li><a href="#">更多</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="zixun">
+                <div class="box3">
+                    <hr>
+                  <h2>国内</h2>
+                  <div >
+                    <a target="_blank" href="../static/img/zixun/box3-1.jpeg">
+                      <img src="../static/img/zixun/box3-1.jpeg"  width="250px" height="150px">
+                    </a>
+                    <div class="desc">云南野象北迁</div>
+                    <p>近日，云南15头野象北迁引发关注。截至7日16时50分，象群持续在昆明市晋宁区夕阳乡小范围原地休息徘徊，暂停迁移。</p>
+                    <br/><br/><br/><br>
+                    <a target="_blank" href="../static/img/zixun/box3-2.jpg">
+                        <img src="../static/img/zixun/box3-2.jpg"  width="250px" height="150px">
+                      </a>
+                      <div class="desc">六五环境日国家主场活动</div>
+                      <p>今年的六五环境日是第50个世界环境日,旨在倡导全社会积极参与生态文明建设,自觉践行绿色生产和生活方式。</p>
+                      <br/><br/><br>
+                      <a target="_blank" href="../static/img/zixun/box3-3.jpg">
+                        <img src="../static/img/zixun/box3-3.jpg"  width="250px" height="150px">
+                      </a>
+                      <div class="desc">保护生物多样性</div>
+                      <p>为保护珠江-西江生物多样性，促进流域鱼类资源繁衍，
+                          近日，“大藤峡水利枢纽2021年鱼类增殖流放活动”在广西举行。此次活动共计向西江投放鱼苗170万尾。</p>
+                  </div>
+                </div>
+                <div class="box4">
+                    <hr>
+                    <h2>国际</h2>
+                    <div>
+                      <a target="_blank" href="../static/img/zixun/box4-1.jpg">
+                        <img src="../static/img/zixun/box4-1.jpg"  width="250px" height="150px">
+                      </a>
+                      <div class="desc">世界环境日</div>
+                      <p>6月5日，志愿者在南非比勒陀利亚捡拾垃圾。
+                        当日，数百人在南非比勒陀利亚的公园和社区内参加今年世界环境日的相关活动，
+                        通过捡拾垃圾来保护环境，并通过环保教育和废物回收知识讲解等让小学生们了解更多环保知识。</p>
+                      <br/><br/>
+                      <a target="_blank" href="../static/img/zixun/box4-2.jpg">
+                        <img src="../static/img/zixun/box4-2.jpg"  width="250px" height="150px">
+                      </a>
+                      <div class="desc">日本欲排核废水入海</div>
+                      <p>据人民日报报道，日本政府已经正式作出“将福岛核水排入大海”的决定，
+                          消息一出舆论哗然，一时间成了国际上的热门话题。大约124万吨的核污水一旦排到大海，
+                          最终汇入太平洋，将影响这个海洋生态系统，谁会是最先遭殃？</p>
+                      <br/>
+                      <a target="_blank" href="../static/img/zixun/box4-3.jpg">
+                        <img src="../static/img/zixun/box4-3.jpg"  width="250px" height="150px">
+                      </a>
+                      <div class="desc">沙尘频发</div>
+                      <p>2021年3月14日午后，内蒙古自治区大部地区均出现沙尘天气，
+                          其中，阿拉善盟、巴彦淖尔市、乌海市、鄂尔多斯市、包头市、呼和浩特市出现强沙尘暴，
+                          乌兰察布市、锡林郭勒盟出现沙尘暴，其余地区出现扬沙、浮尘天气</p>
+                </div>
+                </div>
+                
+                <div class="box5">
+                    <hr>
+                    <h2>政策</h2>
+                    <div class="box5-1">
+                      <a target="_blank" href="../static/img/zixun/box5-1.png">
+                        <img src="../static/img/zixun/box5-1.png"  width="250px" height="150px">
+                      </a>
+                      <div class="desc">《环境信息依法披露制度改革方案》</div>
+                      <p>环境信息依法披露是重要的企业环境管理制度，是生态文明制度体系的基础性内容。
+                          深化环境信息依法披露制度改革是推进生态环境治理体系和治理能力现代化的重要举措。
+                          为贯彻落实党的十九大报告有关要求，依法推动企业强制性披露环境信息，制定本方案。</p>
+                      <br/>
+                      <a target="_blank" href="../static/img/zixun/box5-2.jpg">
+                        <img src="../static/img/zixun/box5-2.jpg"  width="250px" height="150px">
+                      </a>
+                      <div class="desc">《生态环境保护专项督察办法》</div>
+                      <p>《专项督察办法》是《中央生态环境保护督察工作规定》的配套制度，共5章25条，
+                          明确了专项督察对象和重点，规范了专项督察程序和权限，严格了专项督察纪律和要求。</p>
+                      <br/><br/>
+                      <a target="_blank" href="../static/img/zixun/box5-3.jpg">
+                        <img src="../static/img/zixun/box5-3.jpg"  width="250px" height="150px">
+                      </a>
+                      <div class="desc">《白洋淀生态环境治理和保护条例》</div>
+                      <p>旨在修复好、保护好白洋淀和发挥白洋淀的生态功能、防洪功能，
+                          保障河北雄安新区防洪排涝和生态安全及促进河北雄安新区高标准、高质量建设与发展。</p>
+                </div>
+              </div>
+              
+        
+        
+    </div>
+    <div class="hra">
+      <div class="footer">
+          <div class="yyy">
+              <h1>关于我们</h1>
+              <p>平台简介</p>
+              <p>发展历程</p>
+              <p>支持机构</p>
+              <p>项目案例</p>
+              <p>加入我们</p>
+              <p>联系我们</p>
+          </div>
+          <div class="yy">
+              <h1>平台功能</h1>
+              <p>平台优势</p>
+              <p>网络广告</p>
+              <p>网站会员</p>
+              <p>新媒体</p>
+              <p>专业服务</p>
+          </div>
+          <div class="yy">
+              <h1>服务条款</h1>
+              <p>会员条款</p>
+              <p>法律声明</p>
+              <p>下载中心</p>
+              <p>帮助中心</p>
+          </div>
+          <div class="yy">
+              <h1>友情链接</h1>
+              <p>政府机关</p>
+              <p>环保组织</p>
+              <p>国际组织</p>
+              <p>招标网站</p>
+              <div class="foto"><img src="../static/img/index/erwuima.png" height="110px" width="110px"></div>
+          </div>
+        
+      </div>
+      </div>
+      <footer>
+          <br>
+          <p>CopyRight © 2021 广东中山广东理工****有限公司 All Rights Reserved</p><br>
+          <p>邮箱: &nbsp318****qq.com</p><br>
+
+          <p>电话：010-****888 京ICP备*******8号</p>
+          <br>
+      </footer>
+</body>
+</html>
+<script src="../static/js/index.js"></script>

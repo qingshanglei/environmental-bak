@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>环保小当家-用户中心</title>
+    <link rel="stylesheet" href="../static/css/reset.css">
+    <link rel="stylesheet" href="../static/css/user_info.css">
+    <link rel="shortcut icon" href="../static/img/bit64.ico">
+    <script src="../static/js/vue-2.5.16.js"></script>
+</head>
+<body>
+    <div id="app" class="fa">
+        <header>
+            <div>
+                <div class="logo"><img src="../static/img/a1.jpg" height="70px" width="80px"><h1>环保小当家欢迎您</h1></div>
+                <div class="logos">环保小当家</div>
+                <div class="index1"><a href="/"> 返回首页</a> </div>
+                <div class="index2" ><a href="#">在线客服</a></div>
+            </div>
+        </header>                                   
+        <div class="user_info">
+            <div class="top"><img src="../static/img/u.jpg" height="110px" width="1263px"></div>
+            <div class="left">
+                <div class="lleft">
+                    <div id="no"></div>
+                    <div><a href="#">我的信息</a></div>
+                    <div><a href="#">我的组织</a></div>
+                    <div><a href="#">我的事迹</a></div>
+                    <div><a href="#">志愿活动</a></div>
+                    <div><a href="#">设置</a></div>
+                </div>
+            </div>
+            <div class="right">
+                <div class="her">
+                    <div class="herm">
+                        <div class="im"></div>
+                    </div>
+                    <div class="data">
+                        <h3>昵称: &nbsp&nbsp<span>{{ username }}</span></h3><br>
+                        <p>邮箱: &nbsp&nbsp<span>{{ email }}</span> </p>
+                    </div>
+                </div>
+                <div class="bodi">
+                    <div class="bodis">
+                        <div>
+                            <span>手机号码:&nbsp&nbsp</span>
+                            <samp>{{ tel }}</samp>
+                        </div>
+                        <div>
+                            <span>兴趣爱好:&nbsp&nbsp</span>
+                            <span>听音乐，运动，助人为乐</span>
+                        </div>
+                        <div>
+                            <span>组织:&nbsp&nbsp</span>
+                            <span>广东理工</span>
+                        </div>
+                        <div>
+                            <span>志愿服务时长:&nbsp&nbsp</span>
+                            <span>7小时</span>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+        <footer>
+            <br>
+            <p>CopyRight © 2021 广东中山广东理工****有限公司 All Rights Reserved</p><br>
+                <p>邮箱: &nbsp318****qq.com</p><br>
+		        <p>电话：010-****888    京ICP备*******8号</p>
+            <br>
+        </footer>
+     
+    </div>
+    
+</body>
+</html>
+<script type="text/javascript">
+    let username = "{{ username }}";
+    let tel = "{{ tel }}";
+    let email = "{{ email }}";
+</script>
+<script src="../static/js/user_info.js"></script>

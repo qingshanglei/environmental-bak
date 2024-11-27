@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>环保小当家</title>
+    <link href="../static/css/reset.css" type="text/css" rel="stylesheet">
+    <link href="../static/css/index/1.css" type="text/css" rel="stylesheet">
+    <link href="../static/css/index/2.css" type="text/css" rel="stylesheet">
+    <link href="../static/css/news/news.css" type="text/css" rel="stylesheet">
+    <link href="../static/css/index/5.css" type="text/css" rel="stylesheet">
+    <link rel="shortcut icon" href="../static/img/bit64s">
+    <script src="../static/js/common.js"></script>
+    <script src="../static/js/vue-2.5.16.js"></script>
+</head>
+
+<body>
+    <div class="fade">
+        <header>
+            <div>
+                <div class="logo"><a href="index.html"><img src="../static/img/index/a1s.jpg" height="70px" width="80px"></a>
+                    <h1>环保小当家欢迎您</h1>
+                </div>
+                <div class="logos">环保小当家</div>
+                {% if username %}
+                        <div class="inder">
+                                <div class="index1"><a href="/user_center_info.html">你好 {{ username }}</a> </div>
+                                <div class="index2" ><a href="/logout/">退出登录</a></div>                 
+                        </div>
+                    {% else %}
+                <div class="inder">
+                    <div class="index1"><a href="login.html">登录</a> </div>
+                    <div class="index2"><a href="register.html">注册</a></div>
+                </div>
+                {% endif %}
+                <div class="user">
+                    <a href="/user_center_info.html">用户中心</a>
+                </div>
+            </div>
+        </header>
+        <!-- 导航 -->
+        <div class="nav">
+            <div>
+                <ul>
+                    <li><a href="index.html">首页</a></li>
+                    <li><a href="zixun.html">资讯</a></li>
+                    <li><a href="kepu.html">图库</a></li>
+                    <li><a href="#">专栏</a></li>
+                    <li><a href="#">科普</a></li>
+                    <li class="lib"><a href="#">健康生活</a></li>
+                    <li class="lib"><a href="#">互联网＋</a></li>
+                    <li><a href="#">企业</a></li>
+                    <li><a href="#">更多</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="newss">
+            <h6>广东省城市环境空气质量状况</h6>
+            <p1>2021-06-08 23:40 &nbsp;&nbsp;&nbsp;来源：环保小当家-环保新闻</p1>
+            <img src="../static/img/news/news4-1.jpg" width="1250px" height="400px">
+            <p>
+                &nbsp;&nbsp;&nbsp;&nbsp;2021年1月，全省21市空气质量同比下降。全省优良天数比例（AQI达标率）为90.6%，
+                同比下降7.1个百分点；珠三角地区AQI达标率为84.6%，同比下降13.3个百分点。
+                全省细颗粒物（PM2.5）平均浓度为40微克/立方米，同比上升29.0%（9微克/立方米）；
+                珠三角地区PM2.5平均浓度为41微克/立方米，同比上升41.4%（12微克/立方米）。
+                臭氧和PM10作为全省首要污染物的比例分别为33.0%和25.7%。按照环境空气质量综合指数排名，
+                前三位为汕尾、汕头和潮州市，后三位为佛山、江门和东莞市；21市环境空气质量同比均有所变差，
+                变差前三位为湛江、江门和云浮市。
+            </p>
+            <img src="../static/img/news/news4.jpg" width="1000px" >
+            <p>
+                注：1、综合指数的计算依据《关于印发〈城市环境空气质量排名技术规定〉的通知》（环办〔2014〕64号）。<br/><br/>
+　　                2、综合指数变化率“+”表示空气质量变差，“-”表示空气质量改善。<br/><br/>
+　　                3、按国家要求气态污染物和颗粒物分别采用参比状态和实际状态数据。
+            </p>
+        </div>
+        <div class="hra">
+            <div class="footer">
+                <div class="yyy">
+                    <h1>关于我们</h1>
+                    <p>平台简介</p>
+                    <p>发展历程</p>
+                    <p>支持机构</p>
+                    <p>项目案例</p>
+                    <p>加入我们</p>
+                    <p>联系我们</p>
+                </div>
+                <div class="yy">
+                    <h1>平台功能</h1>
+                    <p>平台优势</p>
+                    <p>网络广告</p>
+                    <p>网站会员</p>
+                    <p>新媒体</p>
+                    <p>专业服务</p>
+                </div>
+                <div class="yy">
+                    <h1>服务条款</h1>
+                    <p>会员条款</p>
+                    <p>法律声明</p>
+                    <p>下载中心</p>
+                    <p>帮助中心</p>
+                </div>
+                <div class="yy">
+                    <h1>友情链接</h1>
+                    <p>政府机关</p>
+                    <p>环保组织</p>
+                    <p>国际组织</p>
+                    <p>招标网站</p>
+                    <div class="foto"><img src="../static/img/index/erwuima.png" height="110px" width="110px"></div>
+                </div>
+              
+            </div>
+            </div>
+            <footer>
+                <br>
+                <p>CopyRight © 2021 广东中山广东理工****有限公司 All Rights Reserved</p><br>
+                <p>邮箱: &nbsp318****qq.com</p><br>
+    
+                <p>电话：010-****888 京ICP备*******8号</p>
+                <br>
+            </footer>
+            </div>
+          
+</body>
+
+</html>
+<script src="../static/js/index.js"></script>

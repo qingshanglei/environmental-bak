@@ -1,0 +1,129 @@
+.fa{height: 860px;
+    width: 1262px;
+    margin: 0 auto;}
+header{height: 70px;
+        width: 1262px;}
+header div{
+    height: 70px;
+    margin:0 70px;
+            }
+.logo{height: 70px;
+    width: 80px;
+    float: left;}
+.logo h1{font-size: 0;}
+.logos{height: 70px;
+        width: 400px;
+        float: left;
+        font-size: 35px;
+        line-height: 70px;
+        margin-left: -35px;
+        color: rgb(139, 207, 71);}
+
+.index1{height: 70px;
+        width: 100px;
+        float: left;
+        font-size: 20px;
+        line-height: 70px;
+        margin-left: 100px;
+        text-align: center;
+        color: rgb(32, 44, 20);}
+.index2{height: 70px;
+    width: 100px;
+    float: left;
+    font-size: 20px;
+    line-height: 70px;
+    margin-left: 10px;
+    color: rgb(32, 44, 20);}
+.index1 a,.index2 a{
+    color: rgb(43, 39, 37);
+}
+.index1 a:hover,.index2 a:hover{
+    color: rgb(84, 250, 84);
+}
+p{margin: 0;}
+footer{width: 1262px;
+        height: 70px;
+        text-align: center;}
+footer p{text-align: center;}
+
+
+.fad{
+    height: 720px;
+    width: 1262px;
+    background-image: url(../img/register.jpg);
+    background-size: 1262px 720px;
+    background-position: 50% 50%;
+    position: relative
+}
+.fadi{
+    position: absolute;
+    height: 570px;
+    width: 1000px;
+    left: 131px;
+    top: 80px;
+    background: rgba(248, 237, 237,.6);}
+.fadih2{text-align: center;
+        margin: 30px 0;}
+
+
+        form{
+            margin: 0 auto;
+            width: 500px;
+            height: 442px;
+           }
+        
+        .ddiv{width: 500px;
+            height: 96px;
+            text-align: center 0;}
+        .ddiv h2{text-align: center;
+                line-height: 96px;}
+        .i{width: 360px;
+            height: 36px;
+        }
+        .tit{
+            margin: 0;
+            width: 70px;
+            height: 36px;
+            float: left;
+            line-height: 36px;
+            text-align: left;}
+        .io{margin-left: 80px;}
+        .ik{margin-left: 160px;}
+        
+        .button1{height: 40px;
+                width: 110px;
+                background-color: rgb(63, 183, 252);
+                float: left;
+                color: white;
+                font-size: 20px;
+                line-height: 40px;
+                text-align: center;
+                margin-left: 80px;}
+        .button2{height: 40px;
+            width: 110px;
+            background-color: rgb(39, 245, 66);
+            float: left;
+            color: white;
+            font-size: 20px;
+            line-height: 40px;
+            text-align: center;
+            margin-left:130px ;}
+        .button2 a{color: white;}
+        form div{
+            width: 500px;
+            height: 32px;
+        }
+        button{border: 0;}
+        form div p{margin: 0;
+                    margin-left: 80px;
+                    font-size: 16px;
+                    color: red;
+                    line-height: 32px;}
+.g{font-size: 20px;
+    color: red;
+    width: 150px;
+    height:30px;
+    float: right;
+    text-align: left;
+    line-height: 30px;}
+        

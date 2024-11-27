@@ -1,0 +1,87 @@
+.content {
+    height: 1700px;
+    width: 1263;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 3px;
+}
+  .box1{
+      width: 885px;
+      height: 1524px;
+      float: left;
+      margin-left: -25px;
+      padding-top: 50px;
+  }
+  .box2{
+      width: 30%;
+      float: right;
+      font-size: 15px;
+      text-align: left;
+      padding-top: 50px;
+  }
+  .box2-1{
+      padding-left: 35px;
+  }
+  .box1-1{
+      padding-left: 25px;
+  }
+  .box1 h3{
+      font-size: 25px;
+      color: crimson;
+      margin: 0 auto;
+      padding-top: 20px;
+      padding-left: 25px;
+     
+  }
+  .box1 ul {
+    list-style-type: none;
+    margin: 0;
+}
+ .box1  a {  
+    display: block;
+    color: rgb(123, 175, 151);
+    padding: 8px 16px;
+    text-decoration: none;
+    text-align: left;
+}
+.box1 a:hover{
+    color: rgb(247, 111, 111);
+	text-decoration: none;
+}
+.box1-tp{
+   width: 350px;
+    float: left;
+    height: 800px;
+    border-right: 1px dashed;
+}
+h4{
+    font-size: 20px;
+    margin: 0 auto;
+    color: crimson;
+    text-align: center;
+}
+h5{
+    font-size: 20px;
+    float: left;
+    margin: 0 auto;
+}
+.box1-nr-1 {
+     height: 485px; 
+     width: 485px;
+     background: url(img/index/box1-7.jpg)  no-repeat ;
+    float: right;
+    padding-left:15px;    
+}
+
+.box1-nr-1 .ditan{
+    float: right;
+}
+.box-nr-2 p{
+    float: left;
+    font-size: 14px;
+}
+h6{
+    font-size: 20px;
+    margin: 0 auto;
+    color: crimson;
+}

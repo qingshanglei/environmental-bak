@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>环保小当家-用户注册</title>
+    <script src="../static/js/axios-0.18.0.min.js"></script>
+    <script src="../static/js/vue-2.5.16.js"></script>
+    <link rel="stylesheet" href="../static/css/reset.css">
+    <link rel="stylesheet" href="../static/css/register.css" >
+    <link rel="shortcut icon" href="../static/img/bit64s">
+</head>
+<body>
+    <div class="fa" id="app">
+        <header>
+            <div>
+                <div class="logo"><img src="../static/img/a1.jpg" height="70px" width="80px"><h1>环保小当家欢迎您</h1></div>
+                <div class="logos">环保小当家</div>
+                <div class="index1"><a href="/">返回首页</a> </div>
+                <div class="index2" ><a href="#">在线客服</a></div>
+            </div>
+        </header>
+        <div class="fad">
+            <div class="fadi">
+            <h2 class="fadih2">用户注册</h2>
+            <form v-cloak  @submit="on_submit" :action="urls" method="POST">
+              <div class="tit">用&nbsp户&nbsp名:</div>  <input class="i" v-model="name" @blur="check_name" type="text" name="name" placeholder="请输入3到10个字符">
+                <div>
+                    <p v-show="namekey">[[ error_name ]]</p>
+                </div>
+                <div class="tit">手机号码:</div>  <input class="i" v-model="usertel" @blur="check_usertel" type="text" name="usertel" placeholder="请输入手机号">
+                <div>
+                    <p v-show="usertelkey">[[ error_tel ]]</p>
+                </div>
+                <div class="tit">邮&nbsp&nbsp&nbsp&nbsp箱:</div> <input class="i" v-model="userm" @blur="check_userm" type="text" name="userm" placeholder="请输入邮箱">
+                <div>
+                    <p v-show="usermkey">请输入正确邮箱</p>
+                </div>
+                <div class="tit">密&nbsp&nbsp&nbsp&nbsp码:</div> <input class="i" v-model="password"  @blur="check_password" type="password" name="password" placeholder="请输入密码">
+                <div>
+                    <p v-show="passwordkey">请输入8-16位数密码</p>
+                </div>
+                <div class="tit">确认密码:</div> <input class="i" v-model="password2"  @blur="check_password2" type="password" name="password2" placeholder="确认密码">
+                <div>
+                    <p v-show="password2key">输入密码不一致</p>
+                </div>
+                <div><input class="io" type="checkbox" id="la" v-model="userto" @change="check_userto"><label for="la"></label><a href="#">&nbsp&nbsp我已同意用户协议</a></label>
+                    <div class="g" v-show="usertokey" >请同意用户协议</div>
+                </div> 
+                <div class="ddiv">
+                    <button  class="button1" type="submit" >立即注册</button>>
+                    <div class="button2"><a href="/login.html">去登录</a></div>
+                </div>                   
+            </form>    
+
+            </div>
+        </div>
+        <footer>
+            <br>
+            <p>CopyRight © 2021 广东中山广东理工****有限公司 All Rights Reserved</p><br>
+                <p>邮箱: &nbsp318****qq.com</p>  <br>
+
+		        <p>电话：010-****888    京ICP备*******8号</p>
+            <br>
+        </footer>
+
+    </div>
+    
+</body>
+</html>
+<script src="../static/js/register.js"></script>

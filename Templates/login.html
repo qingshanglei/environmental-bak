@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>环保小当家-用户登录</title>
+    <script src="../static/js/vue-2.5.16.js"></script>
+    <link rel="stylesheet" href="../static/css/reset.css">
+    <link rel="stylesheet" href="../static/css/login.css">
+    <link rel="shortcut icon" href="../static/img/bit64s">
+</head>
+
+<body>
+    
+    <div  class="fa" id="app">
+        <header>
+            <div>
+                <div class="logo"><img src="../static/img/a1.jpg" height="70px" width="80px"><h1>环保小当家欢迎您</h1></div>
+                <div class="logos">环保小当家</div>
+                <div class="index1"><a href="/">返回首页</a> </div>
+                <div class="index2" ><a href="#">在线客服</a></div>
+            </div>
+        </header>
+        <div class="login">
+            <div class="fo">
+                <form v-cloak @submit="on_submit" :action="url" method="POST">
+                    <div class="ddiv"><h2>用户登录</h2></div>
+                    <input class="i" v-model="username" @blur="check_username" type="text" name="username" placeholder="请输入邮箱或手机号">
+                    <div>
+                        <p v-show="usernamekey">请输入正确的手机号或邮箱</p>
+                    </div>
+                    <input class="i" v-model="password"  @blur="check_password" type="password" name="password" placeholder="请输入密码">
+                    <div>
+                        <p v-show="passwordkey">请输入正确的8-16位数密码</p>
+                    </div>
+                    <div><input class="io" type="checkbox" id="la"><label for="la">&nbsp&nbsp记住密码</label>
+                    <a href="#" class="ik">忘记密码</a>
+                    </div> 
+                    <div class="ddiv">
+                        <button class="button1" type="submit" >登录</button>>
+                        <div class="button2" ><a href="/register.html">立即注册</a></div>
+                        <div class="txxx">
+                            <!-- 登陆失败 -->
+                            {% if login_err %}
+                                <span>{{ login_err}}</span>
+                            {% endif %}
+                        </div>
+                    </div>                   
+                </form>
+            </div>
+        </div>
+        <footer>
+            <br>
+            <p>CopyRight © 2021 广东中山广东理工****有限公司 All Rights Reserved</p><br>
+                <p>邮箱: &nbsp318****qq.com</p><br>
+		        <p>电话：010-****888    京ICP备*******8号</p>
+            <br>
+        </footer>
+    </div>
+
+</body>
+
+</html>
+<script src="../static/js/login1.js"></script>

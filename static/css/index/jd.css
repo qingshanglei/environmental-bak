@@ -1,0 +1,90 @@
+  * {
+ margin: 0;
+ padding: 0;
+ }
+ /*<--清除底部三像素距离-->*/
+ .img {
+ vertical-align: top;
+ }
+ 
+ .all {
+ width: 1263px;
+ height: 550px;
+ margin: 0 auto;
+ padding: 5px;
+ border: 1px solid #ccc;
+ position: relative;
+ }
+ 
+ .inner {
+ position: relative;
+ width: 1263px;
+ height: 550px;
+ background-color: pink;
+ overflow: hidden;
+ }
+ 
+ .inner ul {
+ width: 1000%;
+ list-style: none;
+ position: absolute;
+ top: 0;
+ left: 0;
+ }
+ 
+ .inner ul li {
+ float: left;
+ }
+ 
+ .focusD {
+ position: absolute;
+ left: 0;
+ top: 50%;
+ width: 550px;
+ padding: 0 10px;
+ height: 30px;
+ box-sizing: border-box;
+ display: none;
+ }
+ 
+ .inner ol {
+ position: absolute;
+ right: 30px;
+ bottom: 10px;
+ }
+ 
+ .inner ol li {
+ width: 15px;
+ display: inline-block;
+ height: 15px;
+ margin: 0 3px;
+ cursor: pointer;
+ line-height: 15px;
+ text-align: center;
+ background-color: #fff;
+ }
+ /*当前的高亮的小圆点*/
+ .inner ol .current {
+ background-color: rgb(56, 248, 18);
+ color: #fff;
+ }
+ 
+ .focusD span {
+ display: inline-block;
+ width: 25px;
+ font-size: 24px;
+ height: 30px;
+ color: #ccc;
+ line-height: 30px;
+ text-align: center;
+ background: rgba(255, 255, 255, 0.3);
+ cursor: pointer;
+ }
+ 
+ #left {
+ float: left;
+ }
+ 
+ #right {
+ float: right;
+}

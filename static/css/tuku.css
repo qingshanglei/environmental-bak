@@ -1,0 +1,95 @@
+*{margin: 0;padding: 0;}
+.fa{width:1263px ;
+    height: 870px;
+    margin: 0 auto;
+    text-align: center;}
+.div1{
+    width: 1000px;
+    height: 600px;
+    margin-left: 100px;
+    position: relative;
+}
+
+    .div1 a{
+        float: left;
+        width: 140px;
+        height: 45px;
+        line-height: 45px;
+        display: block;
+        background: rgb(228, 228, 228);
+        border-radius: 5px;
+        text-align: center;
+        opacity: 0.7;
+    }
+    a:link{
+        color: rgb(196, 31, 31);
+        text-decoration: none;
+    }
+    /*a:visited{
+        color: rgb(82, 248, 66);
+    }*/
+    /*a:hover{
+        color: chartreuse;
+    }*/
+    dl{
+        position:relative;
+        width:160px;
+        height:142px;
+        padding-top: 20px;
+    }
+    dd{
+        width:1000px;
+        height:600px;
+        overflow:hidden;
+    }
+    dt{
+        padding-top: 60px;
+        padding-left: 100px;
+        width:880px;
+        height:50px;
+    }
+    header{height: 70px;
+        width: 1262px;}
+header div{
+    height: 70px;
+    margin:0 70px;
+            }
+.logo{height: 70px;
+    width: 80px;
+    float: left;}
+.logo h1{font-size: 0;}
+.logos{height: 70px;
+        width: 400px;
+        float: left;
+        font-size: 35px;
+        line-height: 70px;
+        margin-left: -35px;
+        color: rgb(139, 207, 71);}
+
+.index1{height: 70px;
+        width: 100px;
+        float: left;
+        font-size: 20px;
+        line-height: 70px;
+        margin-left: 100px;
+        text-align: center;
+        color: rgb(32, 44, 20);}
+.index2{height: 70px;
+    width: 100px;
+    float: left;
+    font-size: 20px;
+    line-height: 70px;
+    margin-left: 10px;
+    color: rgb(32, 44, 20);}
+.index1 a,.index2 a{
+    color: rgb(43, 39, 37);
+}
+.index1 a:hover,.index2 a:hover{
+    color: rgb(84, 250, 84);
+}
+p{margin: 0;}
+footer{width: 1262px;
+        height: 70px;
+        text-align: center;
+        margin: 0 auto;}
+footer p{text-align: center;}

@@ -1,0 +1,32 @@
+.news{
+    height: 1000px;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 3px;
+    padding-top: 20px;
+}
+.newss{
+    height: 2000px;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 3px;
+    padding-top: 20px;
+}
+.newsss{
+    height: 1300px;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 3px;
+    padding-top: 20px;
+}
+h6{
+    font-size: 30px;
+    /* margin: 0 auto; */
+    text-align: center;
+
+}
+p1{
+    color: #999;
+    margin-top: 20px;
+    float: right;
+}

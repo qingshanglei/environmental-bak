@@ -1,0 +1,45 @@
+
+
+.nav ul li:hover a,.nav ul li:hover{
+	color: rgb(255, 255, 255);
+	text-decoration: none;
+	/* box-shadow: 0 1px 1px 1px rgb(12, 10, 10); */
+	background-color: rgb(20, 167, 28);
+}
+.nav{
+	width:1563px;
+	box-shadow: 0 2px 1px 1px black;
+	height: 55px;
+	background-color: rgb(151, 247, 95);
+}
+div{margin: 0;}
+.nav div{
+	width: 1199px;
+	height: 55px;
+	margin: 0 auto;
+}
+ul{float: left;}
+.nav div ul li{
+	float: left;
+	width: 122px;
+	height: 55px;
+	text-align: center;
+}
+.nav div ul .lib{width: 168px;}
+
+/* 设置竖线 */
+nav div ul p{
+	margin: 0;
+	width: 1;
+	float: left;
+	height: 55px;
+	border: 1px solid rgb(22, 61, 7);}
+
+.nav div ul li a{
+	color: black;
+	font-size: 23px;
+	line-height: 55px;
+}
+
+
+

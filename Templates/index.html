@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>环保小当家</title>
+    <link href="../static/css/reset.css" type="text/css" rel="stylesheet">
+    <link href="../static/css/index/1.css" type="text/css" rel="stylesheet">
+    <link href="../static/css/index/2.css" type="text/css" rel="stylesheet">
+    <!-- 3 内容 -->
+    <link href="../static/css/index/3.css" type="text/css" rel="stylesheet">
+    <!-- 4 焦点 -->
+    <link href="../static/css/index/jd.css" rel="stylesheet">
+    <link href="../static/css/index/5.css" type="text/css" rel="stylesheet">
+    <link rel="shortcut icon" href="../static/img/bit64s">
+    <script src="../static/js/common.js"></script>
+    <script src="../static/js/vue-2.5.16.js"></script>
+</head>
+
+<body>
+    <div class="fade">
+        <header>
+            <div>
+                <div class="logo"><a href="index.html"><img src="../static/img/a1s.jpg" height="70px" width="80px"></a><h1>环保小当家欢迎您</h1></div>
+                <div class="logos">环保小当家</div>
+                    {% if username %}
+                        <div class="inder">
+                                <div class="index1"><a href="/user_center_info.html">你好 {{ username }}</a> </div>
+                                <div class="index2" ><a href="/logout/">退出登录</a></div>                 
+                        </div>
+                    {% else %}
+                        <div  class="inder">
+                            <div class="index1"><a href="login.html">登录</a> </div>
+                            <div class="index2" ><a href="register.html">注册</a></div>
+                        </div>
+                    {% endif %} 
+               <div class="user">
+                   <a href="/user_center_info.html">⌂ 用户中心</a>
+               </div>
+            </div>
+        </header>
+        <!-- 导航 -->
+        <div class="nav">
+            <div>
+                <ul>
+                    <li><a href="index.html">首页</a></li>
+                    <li><a href="zixun.html">资讯</a></li>
+                    <li><a href="kepu.html">图库</a></li>
+                    <li><a href="#">专栏</a></li>
+                    <li><a href="#">科普</a></li>
+                    <li class="lib"><a href="#">健康生活</a></li>
+                    <li class="lib"><a href="#">互联网＋</a></li>
+                    <li><a href="#">企业</a></li>
+                    <li><a href="#">更多</a></li>
+                </ul>
+            </div>
+        </div>
+        <!-- 焦点 -->
+        <div id="box" class="all">
+            <div class="inner">
+                <!-- 相框-->
+                <ul>
+                    <li><a href="#"><img src="../static/img/index/banner1.png" width="1263" height="550" alt=""></a></li>
+                    <li><a href="#"><img src="../static/img/index/banner2.jpg" width="1263" height="550" alt=""></a></li>
+                    <li><a href="#"><img src="../static/img/index/banner3.jpg" width="1263" height="550" alt=""></a></li>
+                    <li><a href="#"><img src="../static/img/index/44.jfif" width="1263" height="550" alt=""></a></li>
+                </ul>
+                <ol>
+                    <!--里面存放小圆点-->
+                </ol>
+            </div>
+            <div class="focusD" id="arr">
+                <span id="left">&lt</span>
+                <span id="right">&gt</span>
+            </div>
+        </div>
+        <!-- 内容 -->
+        <div class="content">
+            <img src="../static/img/index/box11.jpg" width="1263px" height="200px">
+            <div class="box1">
+                <div class="box1-1"><img src="../static/img/index/box1-1.jpg" width="800px"></div>
+            
+                
+                <h3>环保新闻</h3>
+                
+                <ul>
+                    <a href="news1.html">
+                        <li>●省生态环保厅召开党史教育学习工作会议</li>
+                    </a>
+                    <a href="news2.html">
+                        <li>●李克强对全国就业创业工作暨普通高等学校毕业生就业创业工作电视电话会议作出重要批示</li>
+                    </a>
+                    <a href="news3.html">
+                        <li>●生态环境部出台意见遏制“两高”项目盲目发展</li>
+                    </a>
+                    <a href="news4.html">
+                        <li>●广东省城市环境空气质量状况</li>
+                    </a>
+                    <a href="news5.html">
+                        <li>●新增7大事项！5月15日粤商通生态环境专区“上新”啦</li>
+                    </a>
+                </ul>
+                <div class="box1-tp">
+                    <img src="../static/img/index/box1-2.jpg" width="310px">
+                   
+                    <img src="../static/img/index/box1-4.gif" width="310px">
+                    <img src="../static/img/index/box1-3.gif" width="310px">
+                    <img src="../static/img/index/box1-5.gif" width="310px">
+
+                </div>
+                <div class="box1-nr-1">
+                    <hr>
+                    <h4>低碳生活</h4>
+                    <hr>
+                    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;低碳生活(low carbon living)，就是指在生活中要尽力减少所消耗的能量，
+                        特别是二氧化碳的排放量，从而低碳，减少对大气的污染，减缓生态恶化。建设美丽中国是中国人民的梦想。家庭是构成城乡人居环境的细胞，
+                        要提高环境质量，每个家庭、每个社区都须贡献力量，实现美丽中国的目标需要千家万户的积极参与和奉献。
+                        全国妇联推出《绿色家庭指导手册》，旨在用图文并茂的形式帮助大家掌握正确的环境保护、可持续发展、绿色低碳、家庭卫生等理念和知识，
+                        希望每个家庭都能行动起来，积极参与绿色家庭创建，从生活点滴做起，从提升居住小环境质量做起，为建设美丽中国贡献力量。<br /></p>
+                    <div class="box-nr-2">
+                        <h5>低碳生活，从我做起</h5><br />
+                        <p>1.养成随手关闭电器、电源的习惯，避免浪费用电。<br />
+                            2.出门购物，自己带环保袋，无论是免费或者收费的塑料袋，都减少使用。<br />
+                            3.出门自带喝水杯，减少使用一次性杯子。<br />
+                            4.多用永久性的筷子、饭盒，尽量避免使用一次性的餐具。<br />
+                            5.外出尽量骑自行车或乘坐公共交通工具，少坐私家车。<br />
+                            6.在午休和下班后关掉电脑电源。</p>
+                    </div>
+                    <img src="../static/img/index/box1-8.gif" width="500px">
+                </div>
+            </div>
+            <div class="box2">
+                <div class="box2-1"><a href="#"><img src="../static/img/index/box2-1.gif"></div></a>
+                <hr>
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;要坚持绿水青山就是金山银山的理念，坚定不移走生态优先、
+                    绿色发展之路。要继续打好污染防治攻坚战，加强大气、水、土壤污染综合治理，持续改善城乡环境。
+                    要强化源头治理，推动资源高效利用，加大重点行业、重要领域绿色化改造力度，发展清洁生产，加快实现绿色低碳发展。
+                    要统筹山水林田湖草沙系统治理，实施好生态保护修复工程，加大生态系统保护力度，提升生态系统稳定性和可持续性。</br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;——2021年3月5日，习近平在参加十三届全国人大四次会议内蒙古代表团审议时强调</br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;实现碳达峰、碳中和是一场广泛而深刻的经济社会系统性变革，
+                    要把碳达峰、碳中和纳入生态文明建设整体布局，拿出抓铁有痕的劲头，如期实现2030年前碳达峰、2060年前碳中和的目标。</br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;——2021年3月15日，习近平主持召开中央财经委员会第九次会议强调
+                </p>
+                <hr>
+                <h6>热点专题</h6>
+                <img src="../static/img/index/box2-2.jpg" height="200px" width="400px">
+                全球气候变暖<br/>
+                <img src="../static/img/index/box2-3.jpg" height="200px" width="400px">
+                城市热岛<br/>
+                <img src="../static/img/index/box2-4.jpg" height="200px" width="400px">
+                大气污染
+            </div>
+        </div>
+        <!-- footer -->
+       <div class="hra">
+        <div class="footer">
+            <div class="yyy">
+                <h1>关于我们</h1>
+                <p>平台简介</p>
+                <p>发展历程</p>
+                <p>支持机构</p>
+                <p>项目案例</p>
+                <p>加入我们</p>
+                <p>联系我们</p>
+            </div>
+            <div class="yy">
+                <h1>平台功能</h1>
+                <p>平台优势</p>
+                <p>网络广告</p>
+                <p>网站会员</p>
+                <p>新媒体</p>
+                <p>专业服务</p>
+            </div>
+            <div class="yy">
+                <h1>服务条款</h1>
+                <p>会员条款</p>
+                <p>法律声明</p>
+                <p>下载中心</p>
+                <p>帮助中心</p>
+            </div>
+            <div class="yy">
+                <h1>友情链接</h1>
+                <p>政府机关</p>
+                <p>环保组织</p>
+                <p>国际组织</p>
+                <p>招标网站</p>
+                <div class="foto"><img src="../static/img/index/erwuima.png" height="110px" width="110px"></div>
+            </div>
+          
+        </div>
+        </div>
+        </div>
+        <footer>
+            <br>
+            <p>CopyRight © 2021 广东中山广东理工****有限公司 All Rights Reserved</p><br>
+            <p>邮箱: &nbsp318****qq.com</p><br>
+
+            <p>电话：010-****888 京ICP备*******8号</p>
+            <br>
+        </footer>
+    </div>
+</body>
+</html>
+<script src="../static/js/jd.js"></script>
+<script src="../static/js/index.js"></script>
